@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C8C9822B1FCD9E3000BD3626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9822A1FCD9E3000BD3626 /* AppDelegate.swift */; };
-		C8C9822D1FCD9E3000BD3626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9822C1FCD9E3000BD3626 /* ViewController.swift */; };
 		C8C982301FCD9E3000BD3626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C9822E1FCD9E3000BD3626 /* Main.storyboard */; };
 		C8C982321FCD9E3000BD3626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C982311FCD9E3000BD3626 /* Assets.xcassets */; };
 		C8C982351FCD9E3000BD3626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C982331FCD9E3000BD3626 /* LaunchScreen.storyboard */; };
+		C8C9823F1FCDA0FE00BD3626 /* RoleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9823E1FCDA0FE00BD3626 /* RoleListTableViewController.swift */; };
+		C8C982411FCE523F00BD3626 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C982401FCE523F00BD3626 /* Role.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8C982271FCD9E3000BD3626 /* HomeworkTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9822A1FCD9E3000BD3626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8C9822C1FCD9E3000BD3626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8C9822F1FCD9E3000BD3626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8C982311FCD9E3000BD3626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C982341FCD9E3000BD3626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C982361FCD9E3100BD3626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C9823E1FCDA0FE00BD3626 /* RoleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleListTableViewController.swift; sourceTree = "<group>"; };
+		C8C982401FCE523F00BD3626 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		C8C982291FCD9E3000BD3626 /* HomeworkTableView */ = {
 			isa = PBXGroup;
 			children = (
+				C8C982401FCE523F00BD3626 /* Role.swift */,
+				C8C9823E1FCDA0FE00BD3626 /* RoleListTableViewController.swift */,
 				C8C9822A1FCD9E3000BD3626 /* AppDelegate.swift */,
-				C8C9822C1FCD9E3000BD3626 /* ViewController.swift */,
 				C8C9822E1FCD9E3000BD3626 /* Main.storyboard */,
 				C8C982311FCD9E3000BD3626 /* Assets.xcassets */,
 				C8C982331FCD9E3000BD3626 /* LaunchScreen.storyboard */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C9822D1FCD9E3000BD3626 /* ViewController.swift in Sources */,
+				C8C982411FCE523F00BD3626 /* Role.swift in Sources */,
 				C8C9822B1FCD9E3000BD3626 /* AppDelegate.swift in Sources */,
+				C8C9823F1FCDA0FE00BD3626 /* RoleListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
