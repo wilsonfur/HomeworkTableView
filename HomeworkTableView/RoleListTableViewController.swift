@@ -10,10 +10,8 @@ import UIKit
 
 class RoleListTableViewController: UITableViewController {
 
-    @IBOutlet weak var roleNameLabel: UILabel!
-    @IBOutlet weak var standNameLabel: UILabel!
-    
     var roles = [Role]()
+    @IBOutlet weak var roleNameLabel: UILabel!
     
     override func viewDidLoad() {
 
@@ -23,11 +21,15 @@ class RoleListTableViewController: UITableViewController {
         roles.append(Role(roleName: "喬瑟夫", standName: "隱者之紫", roleStory: "故事1", rolePicture: "圖片1"))
         roles.append(Role(roleName: "花京院", standName: "綠之法皇", roleStory: "故事1", rolePicture: "圖片1"))
         
-        for i in 0..<2 {
-            roleNameLabel[i].text = roles[i].roleName
+        for i in 0..<roles.count  {
+            roleNameLabel.text = roles[i].roleName
+            print("yes")
         }
+
     }
 
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
