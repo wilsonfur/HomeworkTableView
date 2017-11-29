@@ -68,9 +68,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="JoJo奇妙的冒險" id="1dh-2f-RUI"/>
-                    <connections>
-                        <outlet property="roleNameLabel" destination="U6k-4c-J2Z" id="yO2-ez-ipA"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xPg-a4-n61" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
